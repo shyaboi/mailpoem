@@ -1,14 +1,18 @@
 import React from 'react';
 import './style.css';
+import mp from './mp.mp4'
 
 function video() {
   return (
-
-
- 
-    <iframe id="bg" src="https://www.youtube.com/embed/bSuNMVnmEIo?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  );
+    <video autoPlay muted loop id="bg"   style={{
+      position: "fixed",
+      left: 0,
+      top: 0
+      
+    }}>
+    <source src={mp} type="video/mp4" />
+  </video>
+  )
 }
 
 export default video;

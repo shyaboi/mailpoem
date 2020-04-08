@@ -1,14 +1,7 @@
-* {
-    box-sizing: border-box;
+
+  #bg{
+    max-width: 100%;
+min-width: 10%;    
+    margin-bottom: 0vw;
+    
   }
-
-#bg{
-    position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-
-  
