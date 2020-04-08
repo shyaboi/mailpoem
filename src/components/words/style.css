@@ -1,0 +1,12 @@
+.content {
+    -webkit-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+    -moz-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+    box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
