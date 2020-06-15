@@ -11,7 +11,7 @@ function words() {
  
     <div className="content" id="ok">
     <h1>MaiL Poem</h1>
-    <p>World falling apart. Everlasting memory. Changes in the wind. </p>
+    <p>World falling apart. Everlasting memory. Change is blowing in the wind. </p>
   </div>
   
 
