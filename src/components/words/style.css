@@ -1,13 +1,14 @@
 #ok {
-  margin-top: 45vw;
+  opacity: 90%;
     -webkit-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     -moz-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
     pointer-events: none;
-    position: sticky;
-    bottom: 0;
+    position: fixed;
+    bottom: 4vh;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
+    z-index: 11;
     /* margin-bottom: 5vw; */
   }

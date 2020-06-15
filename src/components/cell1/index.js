@@ -4,14 +4,10 @@ import mp from './mp.mp4'
 
 function video() {
   return (
-    <video autoPlay muted loop id="bg"   style={{
-      position: "fixed",
-      left: 0,
-      top: 0
-      
-    }}>
+    <video autoPlay muted loop id="flyWave">
     <source src={mp} type="video/mp4" />
   </video>
+
   )
 }
 
