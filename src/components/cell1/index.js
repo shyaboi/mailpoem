@@ -7,7 +7,7 @@ import ReactPlayer from "react-player"
 function Cell1() {
   return (
 
-    <ReactPlayer loop="true" width="100%" height="100vh" controls="true"  id="flyWave" playing="true" url={[{mp}, 'video/mp4']}  />
+    <ReactPlayer loop="true" width="100%" height="100vh" controls="true"  id="flyWave" playing="true" url={['mp.mp4', 'video/mp4']}  />
 
   //   <video autoPlay muted loop id="flyWave">
   //   <source src={mp} type="video/mp4" />
