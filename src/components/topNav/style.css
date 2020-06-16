@@ -1,0 +1,33 @@
+#nav {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+  -moz-box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+  box-shadow: 0 2px 9px 5px rgba(41, 41, 40, 1);
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 11;
+  height: 7vh;
+  overflow: hidden;
+  /* margin-bottom: 5vw; */
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+ul>li {
+  padding: 1vw;
+}
+
+#settings {
+  right: 3vw;
+  position: absolute;
+  align-self: end;
+}

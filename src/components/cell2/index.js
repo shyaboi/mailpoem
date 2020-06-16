@@ -4,7 +4,7 @@ import './style.css';
 
 function Cell2() {
   return (
-      <ReactPlayer url="https://youtu.be/bSuNMVnmEIo" playing="true" loop="true" width="100%" height="100vh" controls="true"  id="ember" />
+      <ReactPlayer url="https://youtu.be/bSuNMVnmEIo" muted playing="true" loop="true" width="100%" height="100vh" controls="true"  id="ember" />
   
 
   )
